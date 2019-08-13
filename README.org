@@ -1,0 +1,4 @@
+* xonsh-mode
+
+Emacs major mode for editing [[https://xon.sh][xonshrc]] files. This mode inherits from
+=python-mode= but adds specific =xonsh= syntax.
