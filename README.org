@@ -5,7 +5,7 @@ Emacs major mode for editing [[https://xon.sh][xonshrc]] files. This mode inheri
 
 * Installation
 
-For now just copy the ~xonsh-mode.el~ file to your ~~/.emacs.d/elisp/~
+For now just copy the xonsh-mode.el file to your ~/.emacs.d/elisp/
 folder and then make sure the following line is executed on startup:
 
 #+begin_src elisp
@@ -13,4 +13,4 @@ folder and then make sure the following line is executed on startup:
 #+end_src
 
 Which if you are using the scheme above would be in the
-~~/.emacs.d/init.el~ folder.
+~/.emacs.d/init.el folder.
