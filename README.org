@@ -14,3 +14,11 @@ folder and then make sure the following line is executed on startup:
 
 Which if you are using the scheme above would be in the
 ~/.emacs.d/init.el folder.
+
+
+And you can always add this snippet to the header of any file you want
+to be interpreted in xonsh mode.
+
+#+begin_src fundamental
+# -*- mode: xonsh; -*-
+#+end_src
