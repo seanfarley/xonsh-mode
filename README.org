@@ -17,9 +17,6 @@ startup:
 Which if you are using the scheme above would be in the
 ~/.emacs.d/init.el folder.
 
-
-
-
 And you can always add this snippet to the header of any file you want
 to be interpreted in xonsh mode.
 
