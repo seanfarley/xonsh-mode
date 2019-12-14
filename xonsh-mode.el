@@ -3,7 +3,9 @@
 ;; Copyright (C) 2019  Sean Farley
 
 ;; Author: Sean Farley <sean@farley.io>
-;; Keywords: python shell xonsh
+;; URL: https://github.com/seanfarley/xonsh-mode
+;; Keywords: languages
+;; Version: 0
 ;; Package-Requires: ((emacs "24.3"))
 
 ;; This program is free software; you can redistribute it and/or modify
