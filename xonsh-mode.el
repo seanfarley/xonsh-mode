@@ -55,7 +55,10 @@
   "Major mode for xonsh, derived from Python mode.
 \\{xonsh-mode-map}"
   (setcar font-lock-defaults
-          (append xonsh-font-lock-keywords python-font-lock-keywords)))
+          (append xonsh-font-lock-keywords
+                  (if (boundp 'python-font-lock-keywords-maximum-decoration)
+                      python-font-lock-keywords-maximum-decoration
+                    python-font-lock-keywords))))
 
 ;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.xsh\\'" . xonsh-mode))
